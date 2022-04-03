@@ -18,6 +18,8 @@ The rules for this file:
  * 2.2.0
 
 Fixes
+  * MOL2 can read files without providing optional columns:
+    subst_id, subst_name and charge. (Issue #3385, PR #3598)
   * Contacts can now accept static AtomGroups as well as selection texts.
     (Issue #2666, PR #3565)
   * Fixed DumpReader triclinic box dimensions reading. (Issue #3386, PR #3403)
